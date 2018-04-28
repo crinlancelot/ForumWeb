@@ -1,6 +1,5 @@
 import * as actions from './actions';
 
-
 // Dentro del `it()` para la accion `loadThreadsRequest`
 describe('when load Threads Request', () => { 
 
@@ -22,9 +21,7 @@ describe('when load Threads is Success', () => {
    });
 });
 
-
 // Dentro del `it()` para la accion `loadThreadsFailure`
-
 describe('when load Threads Failure', () => {
 
     it('returns an error', () => {	
